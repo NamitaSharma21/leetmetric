@@ -41,7 +41,7 @@ A simple and clean web app that displays LeetCode user statistics in a visually 
 
 ## 💻 Author
 
-- Your Name
+Namita Sharma
 
 ---
 
