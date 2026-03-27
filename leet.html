@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeetMetric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>LEETMETRIC</h1>
+
+        <div class="user-container">
+            <p>Enter your username:</p>
+            <div class="user-input-container">
+                <input type="text" placeholder="Enter your username here" id="user-input">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <div class="stats-container">
+
+            <!-- Progress Circles -->
+            <div class="progress">
+
+                <div class="progress-item">
+                    <div class="easy-progress circle">
+                        <span id="easy-level"></span>
+                        <p>Easy</p>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="medium-progress circle">
+                        <span id="medium-level"></span>
+                        <p>Medium</p>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="hard-progress circle">
+                        <span id="hard-level"></span>
+                        <p>Hard</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="stat-card"></div>
+
+        </div>
+    </div>
+
+    <script src="leet.js"></script>
+</body>
+</html>
